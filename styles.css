@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ececec;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #666;
+}
+
+.scale {
+    width: 100%;
+    max-width: 400px;
+}
+
+.bar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.very-alkaline {
+    background-color: #ff00ff;
+    /* Magenta */
+}
+
+.neutral {
+    background-color: #008000;
+    /* Green */
+}
+
+.very-acidic {
+    background-color: #0000ff;
+    /* Blue */
+}
+
+.bar:nth-child(2) {
+    background-color: #ff33ff;
+}
+
+
+/* Light Magenta */
+
+.bar:nth-child(3) {
+    background-color: #ff66ff;
+}
+
+.bar:nth-child(4) {
+    background-color: #ff99ff;
+}
+
+.bar:nth-child(5) {
+    background-color: #ffccff;
+}
+
+.bar:nth-child(6) {
+    background-color: #ff99cc;
+}
+
+.bar:nth-child(7) {
+    background-color: #ff66cc;
+}
+
+.bar:nth-child(9) {
+    background-color: #66ccff;
+}
+
+
+/* Light Blue */
+
+.bar:nth-child(10) {
+    background-color: #33ccff;
+}
+
+.bar:nth-child(11) {
+    background-color: #00ccff;
+}
+
+.bar:nth-child(12) {
+    background-color: #0099ff;
+}
+
+.bar:nth-child(13) {
+    background-color: #0066ff;
+}
